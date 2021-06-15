@@ -1,0 +1,68 @@
+@media screen and (min-width: 600px) and (max-width: 1800px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body div {
+        margin: 100px;
+         flex-direction: column;
+     }
+
+     img.camera{
+        margin-top: 100px ;
+        margin-bottom: 100px;
+
+    }
+
+    img.laptop{
+        margin-bottom: 200px;
+    }
+
+    img.board{
+
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body div {
+         flex-direction: column;
+     }
+
+     img.camera{
+        margin-top: 50px ;
+        margin-bottom: 100px;
+
+    }
+
+    img.laptop{
+        margin-bottom: 100px;
+    }
+
+    img.board{
+
+        margin-bottom: 100px;
+    }
+}
+
+
+  @media screen and (max-width: 599px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+body div.flex1{
+    display: flex;
+    justify-content: space-around;
+
+}
+

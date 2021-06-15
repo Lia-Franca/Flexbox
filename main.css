@@ -1,0 +1,76 @@
+  
+*{
+    margin: 60px;
+    padding: 80px;
+}
+    body{
+    background-color: antiquewhite;
+}
+
+    .topnav {
+    display: flex;
+    flex-wrap: row;
+    overflow: hidden;
+    background-color: #333;
+    justify-content: space-around;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 3s ease all;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+    img.camera{
+    display: flex;
+    background-color: white;
+    border-color: lightgray;
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+    img.laptop{
+    display: flex;
+    background-color: white;
+    border-color: lightgray;
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+    img.board{
+    display: flex;
+    background-color: white;
+    border-color: lightgray;
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+    img.theater{
+    display: flex;
+    background-color: white;
+    border-color: lightgray;
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+
+
+body div {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
